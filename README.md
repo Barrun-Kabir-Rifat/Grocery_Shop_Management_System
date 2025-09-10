@@ -20,6 +20,7 @@ This project helps manage **products, customers, orders, inventory, and payments
 > *(Add screenshots of your project here)*  
 Example:  
 ![Homepage Screenshot](images/screenshot-homepage.png)
+![Uploading image.png…]()
 
 ---
 
