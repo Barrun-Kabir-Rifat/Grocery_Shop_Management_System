@@ -16,13 +16,6 @@ This project helps manage **products, customers, orders, inventory, and payments
 
 ---
 
-## 🖼️ Project Preview
-> *(Add screenshots of your project here)*  
-Example:  
-![Homepage Screenshot](images/screenshot-homepage.png)
-![Uploading image.png…]()
-
----
 
 ## 🛠️ Tech Stack
 | **Technology** | **Usage** |
