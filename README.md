@@ -1,39 +1,96 @@
 # 🛒 Grocery Shop Management System
 
-A **web-based Grocery Shop Management System** built to simplify and automate grocery store operations.  
-This project helps manage **products, customers, orders, inventory, and payments** efficiently, providing both customers and admins with a smooth experience.
+A full-stack web-based application designed to manage day-to-day operations of a grocery shop — including products, inventory, customers, orders, payments, and admin management.  
+Built using **HTML, CSS, JavaScript, PHP, and SQLite**.
 
 ---
 
-## 🚀 Features
-- **Product Management** – Add, edit, or delete products with details like price, stock, and category.
-- **Customer Management** – Manage customer profiles and order history.
-- **Shopping Cart & Checkout** – Easy cart system with secure checkout.
-- **Inventory Tracking** – Automatic stock updates after each order.
-- **Admin Dashboard** – Secure login and management interface for store owners.
-- **Payment Integration** – Support for cash-on-delivery and future online payments.
-- **Responsive Design** – Works across desktop and mobile devices.
+## 📌 Features
+
+### ✅ Product Management
+- Add new products with name, price, stock quantity, and category  
+- Edit and update product details  
+- Delete products from the system  
+- Auto-update product stock after orders  
+
+### 👥 Customer Management
+- Add and manage customer profiles  
+- Store customer order history  
+- Secure customer login system  
+
+### 🛒 Shopping Cart & Checkout
+- Add items to cart  
+- Update item quantities  
+- Calculate total cost  
+- Process checkout and generate orders  
+
+### 📦 Inventory Management
+- Real-time inventory tracking  
+- Automatic stock deduction after purchase  
+- Easy restocking system  
+
+### 🔐 Admin Dashboard
+- Manage all products  
+- Manage users  
+- View and update order status  
+- Full system control  
+
+### 💳 Payment System
+- Basic cash/placeholder payment included  
+- Ready for online payment integration (future enhancement)
 
 ---
 
+## 🏗️ Tech Stack
 
-## 🛠️ Tech Stack
-| **Technology** | **Usage** |
-|----------------|-----------|
-| **HTML5** | Structure and layout |
-| **CSS3** | Styling and responsive design |
-| **JavaScript** | Frontend interactivity |
-| **Django** | Backend framework |
-| **SQLite** | Database management |
-| **Git & GitHub** | Version control |
+| Layer | Technology |
+|-------|------------|
+| Frontend | HTML, CSS, JavaScript |
+| Backend | PHP |
+| Database | SQLite |
+| Version Control | Git & GitHub |
 
 ---
 
-## ⚙️ Installation & Setup
+## 📁 Project Structure
 
-Follow these steps to run the project on your local machine:
+Grocery_Shop_Management_System/
+│
+├── css/ # Stylesheets
+├── js/ # JavaScript files
+├── images/ # UI images/icons
+├── admin/ # Admin dashboard pages
+├── customer/ # Customer-facing pages
+├── database/ # SQLite DB & scripts
+├── includes/ # Shared components (header, footer, config, etc.)
+├── index.php # Home page
+├── login.php # User login
+└── README.md # Project documentation
 
-### 1️⃣ Clone the Repository
-```bash
-git clone https://github.com/Barrun-Kabir-Rifat/Grocery_Shop_Management_System.git
-cd Grocery_Shop_Management_System
+---
+## 📈 Future Enhancements
+
+- 🔐 Integration with Bangladeshi payment gateways  
+  - bKash payment gateway (checkout, transaction verification, refunds)  
+  - Nagad payment gateway (payment initiation, status checking)  
+
+- 💳 Other Online Payment Integration  
+  - Support for international gateways (Stripe / PayPal)  
+
+- 📊 Sales Analytics & Reporting  
+  - Daily / monthly sales reports  
+  - Best-selling products, category-wise analysis  
+
+- 🔔 Smart Inventory & Alerts  
+  - Low-stock notifications  
+  - Automatic restock suggestions  
+
+- 📦 Supplier & Purchase Order Management  
+  - Track suppliers and purchase history  
+  - Generate purchase orders  
+
+- 👮 Role-Based Access Control  
+  - Separate roles: Admin / Manager / Cashier / Customer  
+
+- 📱 API for Mobile Apps  
+  - REST API endpoints for Android/iOS clients  
