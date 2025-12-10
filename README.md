@@ -56,16 +56,56 @@ Built using **HTML, CSS, JavaScript, PHP, and SQLite**.
 
 Grocery_Shop_Management_System/
 │
-├── css/ # Stylesheets
-├── js/ # JavaScript files
-├── images/ # UI images/icons
-├── admin/ # Admin dashboard pages
-├── customer/ # Customer-facing pages
-├── database/ # SQLite DB & scripts
-├── includes/ # Shared components (header, footer, config, etc.)
-├── index.php # Home page
-├── login.php # User login
-└── README.md # Project documentation
+├── admin/                      # Admin panel (manage products, users, orders)
+│   ├── add_product.php
+│   ├── edit_product.php
+│   ├── delete_product.php
+│   ├── manage_orders.php
+│   ├── manage_users.php
+│   └── dashboard.php
+│
+├── customer/                   # Customer-side pages (shop, cart, profile)
+│   ├── shop.php
+│   ├── cart.php
+│   ├── checkout.php
+│   ├── orders.php
+│   └── profile.php
+│
+├── css/                        # Stylesheets
+│   ├── style.css
+│   └── admin.css
+│
+├── js/                         # JavaScript files
+│   ├── main.js
+│   └── cart.js
+│
+├── images/                     # Images and icons
+│   ├── logo.png
+│   └── banner.jpg
+│
+├── database/                   # SQLite database & migrations (if any)
+│   └── grocery_shop.db
+│
+├── includes/                   # Reusable components and configs
+│   ├── config.php              # DB connection & global settings
+│   ├── header.php              # Common header
+│   ├── footer.php              # Common footer
+│   └── auth_check.php          # Authentication/authorization helpers
+│
+├── payment/                    # (Future) Payment integration (bKash/Nagad/etc.)
+│   ├── bkash_init.php          # Placeholder for bKash integration
+│   ├── nagad_init.php          # Placeholder for Nagad integration
+│   └── callbacks/              # Handle payment callbacks
+│       ├── bkash_callback.php
+│       └── nagad_callback.php
+│
+├── index.php                   # Home page
+├── login.php                   # Login page
+├── register.php                # Registration page
+├── logout.php                  # Logout handler
+├── README.md                   # Project documentation
+└── .gitignore                  # Git ignore rules
+
 
 ---
 ## 📈 Future Enhancements
