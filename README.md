@@ -54,6 +54,7 @@ Built using **HTML, CSS, JavaScript, PHP, and SQLite**.
 
 ## 📁 Project Structure
 
+```bash
 Grocery_Shop_Management_System/
 │
 ├── admin/                      # Admin panel (manage products, users, orders)
@@ -95,7 +96,7 @@ Grocery_Shop_Management_System/
 ├── payment/                    # (Future) Payment integration (bKash/Nagad/etc.)
 │   ├── bkash_init.php          # Placeholder for bKash integration
 │   ├── nagad_init.php          # Placeholder for Nagad integration
-│   └── callbacks/              # Handle payment callbacks
+│   └── callbacks/              # Payment callbacks
 │       ├── bkash_callback.php
 │       └── nagad_callback.php
 │
@@ -106,7 +107,7 @@ Grocery_Shop_Management_System/
 ├── README.md                   # Project documentation
 └── .gitignore                  # Git ignore rules
 
-
+```bash
 ---
 ## 📈 Future Enhancements
 
