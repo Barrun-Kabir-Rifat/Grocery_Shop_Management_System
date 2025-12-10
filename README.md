@@ -38,7 +38,6 @@ Built using **HTML, CSS, JavaScript, PHP, and SQLite**.
 
 ### 💳 Payment System
 - Basic cash/placeholder payment
-- Ready for **bKash & Nagad** integration
 
 ---
 
@@ -52,67 +51,6 @@ Built using **HTML, CSS, JavaScript, PHP, and SQLite**.
 | Version Control | Git & GitHub |
 
 ---
-
-## 📁 Project Structure
-
-\`\`\`bash
-## 📁 Project Structure
-
-Grocery_Shop_Management_System/
-│
-├── admin/                      
-│   ├── add_product.php
-│   ├── edit_product.php
-│   ├── delete_product.php
-│   ├── manage_orders.php
-│   ├── manage_users.php
-│   └── dashboard.php
-│
-├── customer/                 
-│   ├── shop.php
-│   ├── cart.php
-│   ├── checkout.php
-│   ├── orders.php
-│   └── profile.php
-│
-├── css/                      
-│   ├── style.css
-│   └── admin.css
-│
-├── js/                       
-│   ├── main.js
-│   └── cart.js
-│
-├── images/                   
-│   ├── logo.png
-│   └── banner.jpg
-│
-├── database/                 
-│   └── grocery_shop.db
-│
-├── includes/                 
-│   ├── config.php
-│   ├── header.php
-│   ├── footer.php
-│   └── auth_check.php
-│
-├── payment/                  
-│   ├── bkash_init.php
-│   ├── nagad_init.php
-│   └── callbacks/
-│       ├── bkash_callback.php
-│       └── nagad_callback.php
-│
-├── index.php                 
-├── login.php                 
-├── register.php              
-├── logout.php                
-├── README.md                 
-└── .gitignore            
-\`\`\`
-
----
-
 ## 📈 Future Enhancements
 
 ### 🔐 Bangladeshi Payment Integration
