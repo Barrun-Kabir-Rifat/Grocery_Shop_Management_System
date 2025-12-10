@@ -1,6 +1,4 @@
 ---
-
-```markdown
 # 🛒 Grocery Shop Management System
 
 A full-stack web-based application designed to manage day-to-day operations of a grocery shop — including products, inventory, customers, orders, payments, and admin management.  
