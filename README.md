@@ -1,68 +1,63 @@
-🛒 Grocery Shop Management System
+---
 
-A full-stack web-based application designed to manage day-to-day operations of a grocery shop — including products, inventory, customers, orders, payments, and admin management.
-Built using HTML, CSS, JavaScript, PHP, and SQLite.
+```markdown
+# 🛒 Grocery Shop Management System
 
-📌 Features
-✅ Product Management
+A full-stack web-based application designed to manage day-to-day operations of a grocery shop — including products, inventory, customers, orders, payments, and admin management.  
+Built using **HTML, CSS, JavaScript, PHP, and SQLite**.
 
-Add new products with name, price, stock, and category
+---
 
-Edit and update product details
+## 📌 Features
 
-Delete products
+### ✅ Product Management
+- Add new products with name, price, stock, and category
+- Edit and update product details
+- Delete products
+- Auto-update inventory after purchase
 
-Auto-update inventory after purchase
+### 👥 Customer Management
+- Add and manage customer profiles
+- View customer order history
+- Secure login system
 
-👥 Customer Management
+### 🛒 Shopping Cart & Checkout
+- Add/remove items
+- Update item quantities
+- Total cost calculation
+- Checkout and order creation
 
-Add and manage customer profiles
+### 📦 Inventory Management
+- Real-time stock levels
+- Auto stock reduction
+- Restocking support
 
-View customer order history
+### 🔐 Admin Dashboard
+- Manage products
+- Manage orders
+- Manage users
+- Full system control
 
-Secure login system
+### 💳 Payment System
+- Basic cash/placeholder payment
+- Ready for **bKash & Nagad** integration
 
-🛒 Shopping Cart & Checkout
+---
 
-Add/remove items
+## 🏗️ Tech Stack
 
-Update item quantities
+| Layer | Technology |
+|--------|------------|
+| Frontend | HTML, CSS, JavaScript |
+| Backend | PHP |
+| Database | SQLite |
+| Version Control | Git & GitHub |
 
-Total cost calculation
+---
 
-Checkout and order creation
+## 📁 Project Structure
 
-📦 Inventory Management
-
-Real-time stock levels
-
-Auto stock reduction
-
-Restocking support
-
-🔐 Admin Dashboard
-
-Manage products
-
-Manage orders
-
-Manage users
-
-Access full system control
-
-💳 Payment System
-
-Basic cash/placeholder payment
-
-Ready for bKash & Nagad integration
-
-🏗️ Tech Stack
-Layer	Technology
-Frontend	HTML, CSS, JavaScript
-Backend	PHP
-Database	SQLite
-Version Control	Git & GitHub
-📁 Project Structure
+\`\`\`bash
 Grocery_Shop_Management_System/
 │
 ├── admin/                      
@@ -114,64 +109,50 @@ Grocery_Shop_Management_System/
 ├── logout.php                
 ├── README.md                 
 └── .gitignore                
+\`\`\`
 
-📈 Future Enhancements
-🔐 Bangladeshi Payment Integration
+---
 
-bKash (checkout, verification, refund)
+## 📈 Future Enhancements
 
-Nagad (initiation, status checking)
+### 🔐 Bangladeshi Payment Integration
+- bKash (checkout, verification, refunds)
+- Nagad (payment initiation, status checking)
 
-💳 Other Payment Gateways
+### 💳 Other Payment Gateways
+- Stripe  
+- PayPal  
 
-Stripe
+### 📊 Sales Analytics
+- Daily / weekly / monthly reports  
+- Best-selling items  
+- Profit summary  
 
-PayPal
+### 🔔 Smart Inventory
+- Low-stock alerts  
+- Auto-restock suggestions  
 
-📊 Sales Analytics
+### 📦 Supplier Management
+- Supplier tracking  
+- Purchase orders  
+- Automated stock updates  
 
-Daily, weekly, monthly sales reports
+### 👮 Advanced Role-Based Access
+- Admin  
+- Manager  
+- Cashier  
+- Customer  
 
-Best-selling items
+### 📱 Mobile App API
+- REST API endpoints for Android/iOS  
 
-Profit summary
+---
 
-🔔 Smart Inventory
-
-Low-stock alert
-
-Auto-restock suggestions
-
-📦 Supplier Management
-
-Track suppliers
-
-Purchase orders
-
-Stock update automation
-
-👮 Advanced Role-Based Access
-
-Admin
-
-Manager
-
-Cashier
-
-Customer
-
-📱 Mobile App API
-
-REST API endpoints for Android/iOS
-
-🤝 Contributing
+## 🤝 Contributing
 
 Contributions are welcome!
 
-Fork the repository
-
-Create a new branch
-
-Commit your changes
-
-Open a pull request
+1. Fork the repository  
+2. Create a new branch  
+3. Commit your changes  
+4. Open a pull request  
