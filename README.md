@@ -1,63 +1,71 @@
-# 🛒 Grocery Shop Management System
+🛒 Grocery Shop Management System
 
-A full-stack web-based application designed to manage day-to-day operations of a grocery shop — including products, inventory, customers, orders, payments, and admin management.  
-Built using **HTML, CSS, JavaScript, PHP, and SQLite**.
+A full-stack web-based application designed to manage day-to-day operations of a grocery shop — including products, inventory, customers, orders, payments, and admin management.
+Built using HTML, CSS, JavaScript, PHP, and SQLite.
 
----
+📌 Features
+✅ Product Management
 
-## 📌 Features
+Add new products with name, price, stock, and category
 
-### ✅ Product Management
-- Add new products with name, price, stock quantity, and category  
-- Edit and update product details  
-- Delete products from the system  
-- Auto-update product stock after orders  
+Edit and update product details
 
-### 👥 Customer Management
-- Add and manage customer profiles  
-- Store customer order history  
-- Secure customer login system  
+Delete products
 
-### 🛒 Shopping Cart & Checkout
-- Add items to cart  
-- Update item quantities  
-- Calculate total cost  
-- Process checkout and generate orders  
+Auto-update inventory after purchase
 
-### 📦 Inventory Management
-- Real-time inventory tracking  
-- Automatic stock deduction after purchase  
-- Easy restocking system  
+👥 Customer Management
 
-### 🔐 Admin Dashboard
-- Manage all products  
-- Manage users  
-- View and update order status  
-- Full system control  
+Add and manage customer profiles
 
-### 💳 Payment System
-- Basic cash/placeholder payment included  
-- Ready for online payment integration (future enhancement)
+View customer order history
 
----
+Secure login system
 
-## 🏗️ Tech Stack
+🛒 Shopping Cart & Checkout
 
-| Layer | Technology |
-|-------|------------|
-| Frontend | HTML, CSS, JavaScript |
-| Backend | PHP |
-| Database | SQLite |
-| Version Control | Git & GitHub |
+Add/remove items
 
----
+Update item quantities
 
-## 📁 Project Structure
+Total cost calculation
 
-```bash
+Checkout and order creation
+
+📦 Inventory Management
+
+Real-time stock levels
+
+Auto stock reduction
+
+Restocking support
+
+🔐 Admin Dashboard
+
+Manage products
+
+Manage orders
+
+Manage users
+
+Access full system control
+
+💳 Payment System
+
+Basic cash/placeholder payment
+
+Ready for bKash & Nagad integration
+
+🏗️ Tech Stack
+Layer	Technology
+Frontend	HTML, CSS, JavaScript
+Backend	PHP
+Database	SQLite
+Version Control	Git & GitHub
+📁 Project Structure
 Grocery_Shop_Management_System/
 │
-├── admin/                      # Admin panel (manage products, users, orders)
+├── admin/                      
 │   ├── add_product.php
 │   ├── edit_product.php
 │   ├── delete_product.php
@@ -65,73 +73,105 @@ Grocery_Shop_Management_System/
 │   ├── manage_users.php
 │   └── dashboard.php
 │
-├── customer/                   # Customer-side pages (shop, cart, profile)
+├── customer/                 
 │   ├── shop.php
 │   ├── cart.php
 │   ├── checkout.php
 │   ├── orders.php
 │   └── profile.php
 │
-├── css/                        # Stylesheets
+├── css/                      
 │   ├── style.css
 │   └── admin.css
 │
-├── js/                         # JavaScript files
+├── js/                       
 │   ├── main.js
 │   └── cart.js
 │
-├── images/                     # Images and icons
+├── images/                   
 │   ├── logo.png
 │   └── banner.jpg
 │
-├── database/                   # SQLite database & migrations (if any)
+├── database/                 
 │   └── grocery_shop.db
 │
-├── includes/                   # Reusable components and configs
-│   ├── config.php              # DB connection & global settings
-│   ├── header.php              # Common header
-│   ├── footer.php              # Common footer
-│   └── auth_check.php          # Authentication/authorization helpers
+├── includes/                 
+│   ├── config.php
+│   ├── header.php
+│   ├── footer.php
+│   └── auth_check.php
 │
-├── payment/                    # (Future) Payment integration (bKash/Nagad/etc.)
-│   ├── bkash_init.php          # Placeholder for bKash integration
-│   ├── nagad_init.php          # Placeholder for Nagad integration
-│   └── callbacks/              # Payment callbacks
+├── payment/                  
+│   ├── bkash_init.php
+│   ├── nagad_init.php
+│   └── callbacks/
 │       ├── bkash_callback.php
 │       └── nagad_callback.php
 │
-├── index.php                   # Home page
-├── login.php                   # Login page
-├── register.php                # Registration page
-├── logout.php                  # Logout handler
-├── README.md                   # Project documentation
-└── .gitignore                  # Git ignore rules
+├── index.php                 
+├── login.php                 
+├── register.php              
+├── logout.php                
+├── README.md                 
+└── .gitignore                
 
-```bash
----
-## 📈 Future Enhancements
+📈 Future Enhancements
+🔐 Bangladeshi Payment Integration
 
-- 🔐 Integration with Bangladeshi payment gateways  
-  - bKash payment gateway (checkout, transaction verification, refunds)  
-  - Nagad payment gateway (payment initiation, status checking)  
+bKash (checkout, verification, refund)
 
-- 💳 Other Online Payment Integration  
-  - Support for international gateways (Stripe / PayPal)  
+Nagad (initiation, status checking)
 
-- 📊 Sales Analytics & Reporting  
-  - Daily / monthly sales reports  
-  - Best-selling products, category-wise analysis  
+💳 Other Payment Gateways
 
-- 🔔 Smart Inventory & Alerts  
-  - Low-stock notifications  
-  - Automatic restock suggestions  
+Stripe
 
-- 📦 Supplier & Purchase Order Management  
-  - Track suppliers and purchase history  
-  - Generate purchase orders  
+PayPal
 
-- 👮 Role-Based Access Control  
-  - Separate roles: Admin / Manager / Cashier / Customer  
+📊 Sales Analytics
 
-- 📱 API for Mobile Apps  
-  - REST API endpoints for Android/iOS clients  
+Daily, weekly, monthly sales reports
+
+Best-selling items
+
+Profit summary
+
+🔔 Smart Inventory
+
+Low-stock alert
+
+Auto-restock suggestions
+
+📦 Supplier Management
+
+Track suppliers
+
+Purchase orders
+
+Stock update automation
+
+👮 Advanced Role-Based Access
+
+Admin
+
+Manager
+
+Cashier
+
+Customer
+
+📱 Mobile App API
+
+REST API endpoints for Android/iOS
+
+🤝 Contributing
+
+Contributions are welcome!
+
+Fork the repository
+
+Create a new branch
+
+Commit your changes
+
+Open a pull request
