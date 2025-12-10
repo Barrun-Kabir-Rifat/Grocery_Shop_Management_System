@@ -56,6 +56,8 @@ Built using **HTML, CSS, JavaScript, PHP, and SQLite**.
 ## 📁 Project Structure
 
 \`\`\`bash
+## 📁 Project Structure
+
 Grocery_Shop_Management_System/
 │
 ├── admin/                      
@@ -106,7 +108,7 @@ Grocery_Shop_Management_System/
 ├── register.php              
 ├── logout.php                
 ├── README.md                 
-└── .gitignore                
+└── .gitignore            
 \`\`\`
 
 ---
